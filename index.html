@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Code-Byte</title>
+    <link rel="icon" href="imagenes/favicon.png" type="image/png">
+</head>
+<body>
+    <header class="contenido-header">
+        <img src="imagenes/iamgen dev.png" alt="">
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="abrirMenu"><i class="fa-solid fa-bars"></i></label>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#">Bots</a></li>
+                <label for="check" class="cerrarMenu"><i class="fa-solid fa-circle-arrow-left"></i></label>
+            </ul>
+        </nav>
+    </header >
+    <section class="seccion-inicio" id="inicio">
+        <div class="titulo-info">
+            <h1>
+                Code-Byte 
+            </h1>
+        </div>
+        <img src="imagenes/dev.jpg" alt="">
+        <div id="info-usuario">
+            <div class="linea-1">
+                <h3>Matias Dev</h3>
+                <ul>
+                    <span>
+                       Mi usuario de discord :
+                    </span>
+                    <span id="copiar">
+                        matias.py
+                    </span>
+                    <label class="icono-copy" id="boton" onclick="copiarTexto()"><i class="fa-regular fa-copy"></i></label>
+                </ul>
+            </div>
+            <div class="separador"></div>
+            <div class="linea-2">
+                <ul>
+                    <li>Mi servidor de discord: <a href="https://discord.gg/tUAG6gAmHH">Clickeame!</a></li>
+                    <li>Mi portafolio: <a href="https://matiasdev4.github.io/Index.html">Clickeame!</a></li>
+                </ul>
+            </div>
+            <div class="separador"></div>
+            <div class="linea-3">
+               <h3>Ticket-Byte</h3>
+               <img src="imagenes/pngwing.com (2).png" alt="">
+               <div class="parrafo">
+                <span>Podes invitarlo a tu servidor y ver sus funciones!</span>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=1158915043870658680&permissions=8&scope=bot%20applications.commands" class="boton">Invitar</a>
+               </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <div class="contacto">
+        <h1>Contacto</h1>
+    </div>
+    <form class="formulario" id="contacto" action="https://formsubmit.co/matiasalvarezinfo1@gmail.com" method="POST">
+        
+        <ul>
+            <label for=""><i class="fa-solid fa-user"></i></label><input type="text" placeholder="Nombre y apellido" class="nombre" name="name">
+            <label for=""><i class="fa-brands fa-discord"></i></label><input class="discord" type="text" placeholder="Tu usuario de discord" name="subject">
+            <label for=""><i class="fa-solid fa-envelope"></i></label><input class="gmail" type="email" placeholder="Tu correo electronico" name="email">
+            <input type="hidden" name="_next" value="https://matiasdev4.github.io/CodeByte/">
+            <input type="hidden" name="_captcha" value="false">
+        </ul>
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>
+        <h1>
+            Code-Byte desarrollador independiente
+        </h1>
+    </footer>
+</body>
+</html>
