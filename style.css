@@ -22,7 +22,7 @@
 }
 footer{
     background-color: black;
-    margin-top: 5%;
+    
     
 }
 footer h1{
@@ -231,6 +231,7 @@ footer h1{
     margin-top: 5%;
     border-radius: 20px;
     
+    
 }
 .formulario > ul{
     display: flex;
@@ -293,11 +294,12 @@ footer h1{
 {
     background-color: #242525;
     width: 40%;
-    height: 45vh;
+    height: 65vh;
     padding: 20px;
     margin: 0 auto;
     margin-top: 5%;
     border-radius: 20px;
+    margin-bottom: 50%;
     
 }
 .formulario > ul{
@@ -423,7 +425,19 @@ h1{
         width: 50%;
     }
     #info-usuario{
-        height: 80vh;
+        height: 85vh;
+    }
+    .formulario
+    {
+        background-color: #242525;
+        width: 80%;
+        height: 75vh;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 5%;
+        border-radius: 20px;
+        margin-bottom: 20%;
+        
     }
 }
 @media (max-width:990px) {
@@ -435,7 +449,7 @@ h1{
         width: 50%;
     }
     #info-usuario{
-        height: 60vh;
+        height: 85vh;
     }
 }
 @media (max-width:800px) {
@@ -504,11 +518,135 @@ h1{
 {
     background-color: #242525;
     width: 90%;
-    height: 45vh;
+    height: 70vh;
     padding: 20px;
     margin: 0 auto;
     margin-top: 5%;
     border-radius: 20px;
+    margin-bottom: 20%;
+    
+}
+.formulario > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 15px;
+}
+.formulario > ul >  label > i{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.formulario > ul > input{
+    outline: none;
+    color: black;
+    padding: 6px 0 6px 10px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    font-family: 'fuenteModal';
+    font-size: 12px;
+}
+.separador2{
+    border: 2px solid rgb(32, 32, 32);
+    margin: 5% 20px 0 20px;
+}
+.contacto >h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'fuentePixel';
+}
+.formulario > button{
+   margin: 0 auto;
+   display: block;
+   margin-top: 3%;
+   padding: 6px 30px 6px 30px;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+   background-color:  rgb(79, 121, 148);
+   font-family: 'fuenteModal';
+   font-size: 18px;
+   color: white;
+}
+.formulario > button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgb(100, 100, 100);
+}
+}
+@media (max-width:750px) {
+    .seccion-inicio
+    {
+        width: 80%;
+    }
+    #info-usuario{
+        height: 60vh;
+    }
+    .linea-3 a{
+        width: 50%;
+    }
+    .abrirMenu
+    {
+        position: relative;
+        left: 100px;
+        top: 30px;
+    }
+    .abrirMenu, .cerrarMenu
+    {
+        display: block;
+        padding-right: 20px;
+    }
+    .nav
+    {
+     position:fixed;
+     width: 100%;
+     height: 100vh;
+     background: #242525;
+     right: 100%;
+     top: 0;
+     text-align: center;
+     padding: 100px 0;
+     z-index: 100;
+     transition: 0.8s;
+    }
+    .nav > ul {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 0 auto;
+     margin-bottom: 100%;
+    }
+    .nav > ul > li > a:hover{
+     cursor: pointer;
+     background-color: rgb(55, 84, 104);
+     border-radius: 25px;
+     transition: .5s;
+ 
+    }
+    .nav > ul > li > a{
+        padding: 20px 0 10px 0;
+
+    }
+    #check:checked ~  .nav
+    {
+     right: 0;
+    }
+    .cerrarMenu
+    {
+     position: absolute;
+     top: 40px;
+     right: 40px;
+    }
+    .formulario
+{
+    background-color: #242525;
+    width: 90%;
+    height: 75vh;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 20%;
     
 }
 .formulario > ul{
@@ -619,11 +757,11 @@ h1{
         padding: 20px 0 10px 0;
 
     }
-    .formulario
+.formulario
 {
     background-color: #242525;
     width: 90%;
-    height: 48vh;
+    height: 70vh;
     padding: 20px;
     margin: 0 auto;
     margin-top: 5%;
@@ -736,11 +874,12 @@ h1{
     {
         background-color: #242525;
         width: 90%;
-        height: 48vh;
+        height: 10vh;
         padding: 20px;
         margin: 0 auto;
         margin-top: 5%;
         border-radius: 20px;
+        
         
     }
     .formulario > ul{
@@ -752,7 +891,128 @@ h1{
     .formulario > ul >  label > i{
         color: white;
         padding: 20px;
-        font-size: 30px;
+        font-size: 10px;
+    }
+    .formulario > ul > input{
+        outline: none;
+        color: black;
+        padding: 6px 0 6px 10px;
+        width: 70%;
+        border-radius: 10px;
+        border: none;
+        font-family: 'fuenteModal';
+        font-size: 12px;
+    }
+    .separador2{
+        border: 2px solid rgb(32, 32, 32);
+        margin: 5% 20px 0 20px;
+    }
+    .contacto > h1{
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'fuentePixel';
+        font-size: 20px;
+    }
+    .formulario > button{
+       margin: 0 auto;
+       display: block;
+       margin-top: 3%;
+       padding: 6px 30px 6px 30px;
+       border-radius: 20px;
+       outline: none;
+       border: none;
+       background-color:  rgb(79, 121, 148);
+       font-family: 'fuenteModal';
+       font-size: 18px;
+       color: white;
+    }
+    .formulario > button:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px rgb(100, 100, 100);
+    }
+    footer{
+        margin-top: 10%;
+    }
+}
+@media (max-width:480px) {
+    
+    .seccion-inicio
+    {
+        width: 92%;
+    }
+    #info-usuario{
+        height: 55vh;
+    }
+    .linea-3 a{
+        width: 50%;
+    }
+    #copiar{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .abrirMenu
+    {
+        position: relative;
+        left: 50px;
+        top: 30px;
+    }
+    .abrirMenu, .cerrarMenu
+    {
+        display: block;
+        padding-right: 20px;
+    }
+    .nav
+    {
+     position:fixed;
+     width: 100%;
+     height: 100vh;
+     background: #242525;
+     right: 100%;
+     top: 0;
+     text-align: center;
+     padding: 100px 0;
+     z-index: 100;
+     transition: 0.8s;
+    }
+    .nav > ul {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 0 auto;
+     margin-bottom: 100%;
+    }
+    .nav > ul > li > a:hover{
+     cursor: pointer;
+     background-color: rgb(55, 84, 104);
+     border-radius: 25px;
+     transition: .5s;
+ 
+    }
+    .nav > ul > li > a{
+        padding: 20px 0 10px 0;
+
+    }
+    .formulario
+    {
+        background-color: #242525;
+        width: 90%;
+        height: 70vh;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 5%;
+        border-radius: 20px;
+        
+    }
+    .formulario > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+
+    }
+    .formulario > ul >  label > i{
+        color: white;
+        padding: 20px;
+        font-size: 20px;
     }
     .formulario > ul > input{
         outline: none;
@@ -1109,11 +1369,12 @@ h1{
     {
         background-color: #242525;
         width: 90%;
-        height: 48vh;
+        height: 70vh;
         padding: 20px;
         margin: 0 auto;
         margin-top: 5%;
         border-radius: 20px;
+        margin-bottom: 20%;
         
     }
     .formulario > ul{
@@ -1342,5 +1603,9 @@ h1{
         padding: 10px 0 5px 0;
         font-size: 14px;
 
+    }
+    .formulario{
+        margin-bottom: 50%;
+        height: 70vh;
     }
 }
